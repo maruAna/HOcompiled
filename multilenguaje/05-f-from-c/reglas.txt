@@ -1,3 +1,8 @@
+********************************************
+subrutina de FORTRAN desde un programa en C
+********************************************
+
+
 
 objeto: gfortran -c f-sum_f90
 
@@ -8,6 +13,7 @@ objeto: gcc -c c-main.c -o c-main.o
 
 linkeo: gcc f-sum_f90.o c-main.o -o c-main.e
 
-y 
+
 
 para Ejecutar: ./c-main.e 
+
